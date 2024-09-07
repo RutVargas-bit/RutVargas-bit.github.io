@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Noto Serif", serif;
+    background-color: rgb(238, 97, 139);
+    font-size: 35px;
+    width: 100%;
+}
+
+.logo {
+    border: 0px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slogan {
+    background-image: url(./imagenes\ frutilupis/.slogan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border: 0px;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: unsets;
+}
+
+.header ul li {
+    margin: 20px;
+}
+
+
+.img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 35px;
+    width: 100%;
+    background-color: rgb(233, 121, 155);
+    margin: 15px 0 15px;
+}
+
+.p {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 25px;
+    color: rgb(106, 29, 126);
+    font-family: "Noto Serif", serif;
+    width: 100%;
+}
+
+.h1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 55px;
+    color: rgb(163, 33, 180);
+    font-family: "Noto Serif", serif;
+    font-weight: 100%;
+    font-style: normal;
+}
+
+.redes {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(212, 80, 120);
+}
+
+footer {
+    font-size: 25px;
+    color: rgb(65, 65, 189);
+    background-color: rgb(255, 169, 226);
+    font-family: "Noto Serif", serif;
+    font-weight: 100%;
+    font-style: normal;
+    margin: 5px 0 5px;
+}
